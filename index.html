@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+
+        <title>W A V E</title>
+
+        <meta name="description" content="Algorithmic liquid motion..." />
+
+        <script type="text/javascript" src="http://whitevinyldesign.com/experiments/experiment.js"></script>
+        <link href="http://whitevinyldesign.com/experiments/experimentStyle.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="js/lib/stats.min.js"></script>
+        <script type="text/javascript" src="js/lib/tombola.js"></script>
+        <script type="text/javascript" src="js/lib/colorflex.js"></script>
+        <script type="text/javascript" src="js/lib/canvas-noise.js"></script>
+        <script type="text/javascript" src="js/lib/perlin-simplex.js"></script>
+        <script type="text/javascript" src="js/lib/tween.min.js"></script>
+
+        <script type="text/javascript" src="js/UTILS.js"></script>
+        <script type="text/javascript" src="js/WAVE.js"></script>
+        <script type="text/javascript" src="js/MAIN.js"></script>
+        <script type="text/javascript" src="js/METRICS.js"></script>
+        <script type="text/javascript" src="js/INTERACTION.js"></script>
+
+        <link href="STYLE.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lora|PT+Sans:i400" rel="stylesheet">
+
+        <link rel="shortcut icon" href="http://whitevinyldesign.com/experiments/favicon.ico"/>
+        <link rel="image_src" type="image/png" href="thumb.jpg">
+    </head>
+
+
+    <body onload="init()" onresize="metrics()">
+
+        <canvas id="canvas"></canvas>
+
+        <div id='noiseLayer'></div>
+
+        <div id='overlay' class='unselectable'>
+            <div id='tt'>Wave</div>
+            <div id='line'></div>
+        </div>
+
+        <div id='creator'>
+            <a href='http://whitevinyldesign.com' target='_blank'>by Wvnl</a>
+            <div class='divide'></div>
+            <a href='https://github.com/Whitevinyl/WAVE' target='_blank'>github</a>
+        </div>
+
+
+<!-- Start of StatCounter Code for Default Guide -->
+<!--<script type="text/javascript">
+var sc_project=11449199;
+var sc_invisible=1;
+var sc_security="b8fda77b";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web counter"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11449199/0/b8fda77b/1/" alt="web
+counter"></a></div></noscript>-->
+<!-- End of StatCounter Code for Default Guide -->
+    </body>
+</html>
